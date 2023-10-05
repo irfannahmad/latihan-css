@@ -1,0 +1,45 @@
+/* 
+display 
+- inline (a, b, i, button, dll)
+- inline-block (memaksa inline menjadi block)
+- block (h1-h6, p, ol, ul, form, dll)
+- none (menghilangkan)
+*/
+
+/* inline */
+nav a {
+  background-color: greenyellow;
+}
+
+/* inline-block */
+nav a {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+/* block */
+main {
+  background-color: lightskyblue;
+  width: 300px;
+  height: 300px;
+}
+
+main h2 {
+  background-color: greenyellow;
+}
+
+/* none */
+main img {
+  display: none;
+}
+
+/* mengubah display */
+nav ul li {
+  display: inline;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
