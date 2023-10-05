@@ -1,0 +1,31 @@
+/* selector tag html */
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1,
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: green;
+}
+
+ul li a {
+  color: red;
+}
+
+/* selector id */
+#p1 {
+  color: tomato;
+}
+/* selector class */
+.p2 {
+  color: blue;
+}
+
+.cetak-tebal {
+  font-weight: bold;
+}
+
+p.cetak-tebal {
+  font-size: 30px;
+}

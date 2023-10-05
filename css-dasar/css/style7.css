@@ -1,0 +1,18 @@
+/* inline, id, class, element html
+0, 0, 0, 0 */
+
+#p1 {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+ul#lorem li {
+  color: green;
+}
+
+ul#lorem .color {
+  color: tomato;
+}
