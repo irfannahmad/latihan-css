@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+html {
+   font-size: 55%;
+}
+
+body {
+   font-family: "Poppins", sans-serif;
+}
+
+/* ==================== utility classes ========================== */
+.container {
+   max-width: 1200px;
+   width: 90%;
+   margin: auto;
+}
+
+/* ======================== navbar styling ================== */
+/* desktop mode */
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+   display: none;
+}
+
+.navbar {
+   box-shadow: 0px 5px 10px 0px #aaa;
+   position: fixed;
+   width: 100%;
+   background: #fff;
+   color: #000;
+   opacity: 0.85;
+   z-index: 999;
+}
+
+.navbar-container {
+   display: flex;
+   justify-content: space-between;
+   height: 100px;
+   align-items: center;
+}
+
+.menu-items {
+   order: 2;
+   display: flex;
+}
+
+.menu-items li {
+   list-style: none;
+   margin-left: 1.5rem;
+   font-size: 1.8rem;
+}
+
+.logo {
+   order: 1;
+   font-size: 3rem;
+}
+
+.navbar a {
+   color: #444;
+   text-decoration: none;
+   font-weight: 500;
+   transition: color 0.2s ease-in-out;
+   -webkit-transition: color 0.2s ease-in-out;
+   -moz-transition: color 0.2s ease-in-out;
+   -ms-transition: color 0.2s ease-in-out;
+   -o-transition: color 0.2s ease-in-out;
+}
+
+.navbar a:hover {
+   color: #117964;
+}
+
+/* ======================= showcase styling ========================= */
+.showcase-area {
+   height: 50vh;
+   background: linear-gradient(
+         rgba(240, 240, 240, 0.144),
+         rgba(255, 255, 255, 0.33)
+      ),
+      url(/img/header-image2.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.showcase-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   font-size: 1.6rem;
+}
+
+.main-title {
+   text-transform: uppercase;
+}
