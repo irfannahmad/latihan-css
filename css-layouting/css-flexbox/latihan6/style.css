@@ -64,7 +64,7 @@ body {
 .navbar-container {
    display: flex;
    justify-content: space-between;
-   height: 100px;
+   height: 75px;
    align-items: center;
 }
 
@@ -154,18 +154,65 @@ body {
 .about-img {
    flex: 1 1 400px;
    padding: 30px;
-   border: 2px solid red;
 }
 
 .about-text {
    flex: 1 1 400px;
    padding: 30px;
-   border: 2px solid black;
+   margin: auto;
 }
 
 .about-img img {
    display: block;
    height: 400px;
    max-width: 100%;
+   margin: auto;
    object-fit: cover;
+   object-position: right;
+}
+
+/* ============================== food category styling ==================== */
+
+#food {
+   padding: 5rem 0 10rem 0;
+}
+
+#food h2 {
+   text-align: center;
+   font-size: 3rem;
+   font-weight: 400;
+   margin-bottom: 40px;
+   text-transform: uppercase;
+   color: #555;
+}
+
+.food-container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.food-container img {
+   display: block;
+   width: 100%;
+   margin: auto;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.img-container {
+   margin: 0 1rem;
+   position: relative;
+}
+
+.img-content {
+   position: absolute;
+   top: 70%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+   z-index: 2;
 }
